@@ -1,3 +1,4 @@
+print("Parte de derivación")
 #Punto 1G 
 #Se posee un incremento de error igual a h 
 h=0.1
@@ -15,9 +16,7 @@ print("Punto G ")
 print(PrimeraDDosPuntos)
 print(primeraDTresPuntos)
 print(PrimeraDCincoPuntos)
-print(" ")
-print(" ")
-print(" ")
+
 
 
 
@@ -56,11 +55,11 @@ while(pos <= length(t)){
  pos=pos+1
 }
 plot(t,V)
-print(" ")
-print(" ")
-print(" ")
 
 
+
+
+print("Parte de integración")
 #Punto H
 print("Punto H ")
 #intervalo superior
@@ -90,9 +89,8 @@ c=(b-a)/2
 #evaluamos en la formula simpson y de trapecios
 f=c*(num1+num2)
 print(f)
-print(" ")
-print(" ")
-print(" ")
+
+
 
 
 
@@ -113,9 +111,7 @@ pi=3.14159265359
 expresionIntegracion=(pi*(a^2+b^2))/a^2
 integracion=eval(expresionIntegracion)
 print(integracion)
-print(" ")
-print(" ")
-print(" ")
+
 
 
 
