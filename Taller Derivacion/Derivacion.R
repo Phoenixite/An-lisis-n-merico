@@ -1,4 +1,4 @@
-print("Parte de derivaci髇")
+print("Parte de derivaci贸n")
 #Punto 1G 
 #Se posee un incremento de error igual a h 
 h=0.1
@@ -23,12 +23,12 @@ print(PrimeraDCincoPuntos)
 #Punto 1K 
 # Utilizando el metodo de solucion para ecuaciones diferenciales ordinarias
 # De la forma y'+p(x)=q(x)
-# Cuya soluci髇 para el caso pr醕tico de circuitos ser韆: 
+# Cuya soluci贸n para el caso pr谩ctico de circuitos ser铆a: 
 # i(t) = C*exp^(-(R*t)/(L))+E(t)*(L/R)
 # Debido a que la constante C no se puede determinar dado que nos piden hallar el voltaje
-# Se asume que en el tiempo cero la corriente tambi閚 es cero, por lo que la soluci髇
-# quedar韆 de la siguiente forma i(t)=E(t)*(L/R)(exp^(-(R*t)/(L))+1), y despejando el
-# voltaje, entonces se tendr韆 E(t)=(i(t)*R)/(L*exp^(-(R*t)/(L))+1)
+# Se asume que en el tiempo cero la corriente tambi茅n es cero, por lo que la soluci贸n
+# quedar铆a de la siguiente forma i(t)=E(t)*(L/R)(exp^(-(R*t)/(L))+1), y despejando el
+# voltaje, entonces se tendr铆a E(t)=(i(t)*R)/(L*exp^(-(R*t)/(L))+1)
 
 calcularVoltaje <-function(R,L,t,i){
   
@@ -59,7 +59,7 @@ plot(t,V)
 
 
 
-print("Parte de integraci髇")
+print("Parte de integraci贸n")
 #Punto H
 print("Punto H ")
 #intervalo superior
