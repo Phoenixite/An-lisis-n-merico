@@ -29,13 +29,13 @@ print (cota2)
 #Tambien se poseen x0(punto inicial),x1 y x2 que poseen los valores de : 
 #h=0.1
 x0=1.8
-x1=x0+h
-x2=x0+2*h
 for(h in c(-100:100)){
-PrimeraD=((1/(2*h)))*((-3*log(x0))+(4*log(x1))-(log(x1))-(log(x2)))
-print(h)
-#el valor mas aproximado al real es el indice 6
-print(PrimeraD)
+  x1=x0+h
+  x2=x0+2*h
+  PrimeraD=((1/(2*h)))*((-3*log(x0))+(4*log(x1))-(log(x1))-(log(x2)))
+  print(h)
+  #el valor mas aproximado al real es el indice 6
+  print(PrimeraD)
 }
 
 
